@@ -1,13 +1,11 @@
-print("hola mundo")
-x = 1
-y = 2
-print(x+y)
+# Online Python Playground
+import math
+# Use the online IDE to write, edit & run your Python code
+# Create, edit & delete files ondef
+def findMid(arr):
+    nums = sorted(arr)
+    number = nums[math.ceil(len(nums)/2)-1]
+    return number
 
-def suma(x,y):
-    if (y == 0):
-        print("no se puede dividir 0")
-    else:
-        z = x / y
-        print(z)
-
-suma(5,0)
+anwser = findMid([5,1,3,2,4])
+print(anwser)
