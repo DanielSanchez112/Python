@@ -1,3 +1,5 @@
+import time
+
 def FibRecurs(n: int)-> int:
     fib = [0,1]
     if n <= 1:
@@ -9,4 +11,7 @@ def FibRecurs(n: int)-> int:
 
 if __name__ == '__main__':
     n = int(input())
+    start = time.time()
     print(FibRecurs(n))
+    end = time.time()
+    print(f"Tiempo de ejecucion: {end - start:.8f} segundos")
