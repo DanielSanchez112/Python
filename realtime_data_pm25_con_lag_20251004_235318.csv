@@ -1,0 +1,2 @@
+timestamp,ciudad,location_id,pm25_actual,pm25_lag_3h,pm25_lag_6h,pm25_lag_12h,pm25_lag_24h,temperature,humidity,wind_speed,wind_direction
+2025-10-05T05:53:18.002406,CDMX,1134,13.0,,,,,14.4,85,3.0,284
